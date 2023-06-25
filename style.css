@@ -1,0 +1,98 @@
+#scrollspyHeading1{
+    background-color: #DAD8C4;
+}
+hr{
+    margin: 0;
+}
+#h1{
+    font-family: 'Noto Serif Display', serif;
+}
+#scrollspyHeading2{
+    font-family: 'Noto Serif Display', serif;
+}
+#scrollspyHeading2~h3{
+    font-family: 'Noto Serif Display', serif;
+}
+#myimage{
+    border-radius: 5%
+}
+#navbar a{
+    color: black;
+}
+#navbar{
+    background-color: #9D9090;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#scrollspyHeading2~ul{
+    list-style-type: none;
+}
+#mycircleimage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#aboutme{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+    width: 100%;
+}
+#toppara{
+    font-family: 'Open Sans', sans-serif;
+}
+#scrollspyHeading3{
+    background-color: #DAD8C4 ;
+}
+#scrollspyHeading4{
+    background-color: #DAD8C4 ;
+    
+}
+#hobbies{
+    background-color: #9D9090;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif Display', serif;
+    margin: 0;
+
+}
+#cards~img{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border: 0;
+    
+}
+.hobbieheading{
+    font-family: 'Noto Serif Display', serif;
+
+}
+.hobbieheadingdes{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.card-body{
+    background-color: #9D9090;
+    border: 0;
+    
+}
+.edu{
+    font-family: 'Noto Serif Display', serif;
+   
+}
+.text-body-secondary{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#scrollspyHeading5{
+    background-color: #DAD8C4;
+    margin: 0;
+}
+.social{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

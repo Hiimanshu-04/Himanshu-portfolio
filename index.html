@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!------------------------------------------Navigation Bar------------------------------------------------------------->
+    <section id="navbar">
+      <nav id="navbar-example2" class="navbar px-3">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading4">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading5">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <!------------------------------------------top section------------------------------------------------------------->
+    <section id="scrollspyHeading1">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              id="myimage"
+              src="./Assets/My front page pic.jpg"
+              class="d-block mx-lg-auto img-fluid"
+              alt="My image"
+              width="400"
+              height="200"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 id="h1" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Hii, I'm Himanshu Yadav
+            </h1>
+            <p id="toppara" class="lead">
+              A curious engineering student who's diving into the exciting world
+              of web development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------About me------------------------------------------------------------->
+    <section id="scrollspyHeading3">
+      <div>
+        <div class="p-5 text-center">
+          <div class="container py-5">
+            <h2 id="aboutme" class="text-body-emphasis">
+              "I'm a Student and an emerging Web developer, I'm currently
+              pursuing my B.tech in I.T. branch. Hope you Like my Work"
+            </h2>
+            <img
+              id="mycircleimage"
+              class="profile-img mt-5"
+              src="./Assets/passport.jpg"
+              alt="my image"
+            />
+            <p class="col-lg-8 mx-auto lead mt-2">Himanshu Yadav, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------hobbies----------------------------------------------------->
+    <section id="scrollspyHeading2">
+      <h2 id="hobbies">Hobbies</h2>
+      <div id="cards" class="card-group">
+        <div class="card">
+          <img
+            src="./Assets/coding.jpeg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title hobbieheading">Coding</h5>
+            <p class="card-text hobbieheadingdes">
+              With lines of code as my paintbrush, I create digital
+              masterpieces, turning ideas into reality through the power of
+              programming.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./Assets/listening to music.jpeg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title hobbieheading">Listening to Music</h5>
+            <p class="card-text hobbieheadingdes">
+              Lost in melodies, I find solace and inspiration as each note
+              weaves emotions into a symphony that resonates deep within.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./Assets/working out.jpeg"
+            class="card-img-top img-fluid"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title hobbieheading">Working out</h5>
+            <p class="card-text hobbieheadingdes">
+              Sweat drips, muscles flex, and determination fuels my body. In the
+              gym, I sculpt both strength and discipline, pushing boundaries to
+              reach new heights.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------Education--------------------------------------->
+    <section id="scrollspyHeading4">
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+        >
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis edu">
+              Educational Background
+            </h2>
+            <p class="text-body-secondary">
+              Here are my grades form the Schooling.
+            </p>
+          </div>
+
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis edu">
+                  Class 12th
+                </h4>
+                <p class="text-body-secondary">
+                  Physics, Chemistry, Mathematics. <br />
+                  S.L. SR. SEC. SCHOOL <br />
+                  GPA: 9.0 <br />
+                  12th Class:- 90.00%
+                </p>
+                <h4 class="fw-semibold mb-0 text-body-emphasis edu">
+                  Class 10th
+                </h4>
+                <p class="text-body-secondary">
+                  S.L. SR. SEC. SCHOOL <br />
+                  GPA: 9.5 <br />
+                  10th Class:- 95.67%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------footer------------------------------------------->
+    <section id="scrollspyHeading5">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-centre align-items-center py-3 social">
+              <ul class="nav justify-content-centre list-unstyled align-items-center">
+                <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/hiimanshu_04"><img src="./Assets/twitter.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/hiimanshu.04?igshid=NTc4MTIwNjQ2YQ=="><img src="./Assets/instagram.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/himanshu-yadav-139310259/"><img src="./Assets/linkedin.svg" alt=""></a></li>
+              </ul>
+            </footer>
+          </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</html>
